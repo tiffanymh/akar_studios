@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: local('GlacialIndifference'), url(../fonts/GlacialIndifference-Regular.otf) format('otf');
+}
+
+.header {
+  padding: 10px 16px;
+  position: sticky;
+  top: 0;
+}
+
+.about-us {
+  color: #000000;
+  font-family: "GlacialIndifference";
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.47px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 47px;
+  width: 104px;
+}
+
+.shop {
+  color: #000000;
+  font-family: "GlacialIndifference";
+  font-size: 20px;
+  font-weight: 400;
+  left: 147px;
+  letter-spacing: -0.97px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 47px;
+  white-space: nowrap;
+  width: 128px;
+}
+
+.IDR {
+  color: #000000;
+  font-family: "GlacialIndifference";
+  font-size: 20px;
+  font-weight: 400;
+  left: 1463px;
+  letter-spacing: -0.47px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 35px;
+}
+
+.my-account {
+  color: #000000;
+  font-family: "GlacialIndifference";
+  font-size: 20px;
+  font-weight: 400;
+  left: 1541px;
+  letter-spacing: -0.47px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 118px;
+}
+
+.cart {
+  color: #000000;
+  font-family: "GlacialIndifference";
+  font-size: 20px;
+  font-weight: 400;
+  left: 1702px;
+  letter-spacing: -0.47px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 75px;
+}
