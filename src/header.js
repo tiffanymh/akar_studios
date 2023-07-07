@@ -31,25 +31,25 @@ function Header() {
     <ThemeProvider theme={theme}>
       <AppBar position="static">
         <Toolbar>
-          <Grid container spacing={2}>
-            <Grid item>
+          <Grid container spacing={3}>
+            <Grid item display="flex" alignItems="flex-end">
               <Typography> About Us </Typography>
             </Grid>
-            <Grid item>
+            <Grid item display="flex" alignItems="flex-end">
               <Typography> Shop </Typography>
             </Grid>
             <Grid item md={true}>
-              <Typography sx={{ fontFamily: "Playfair Display", fontWeight: "700", fontSize: "60px"}}> 
+              <Typography sx={{ fontFamily: "Playfair Display", fontWeight: "700", fontSize: "40px"}}> 
               Akar Studios
               </Typography>
             </Grid>
-            <Grid item>
+            <Grid item display="flex" alignItems="flex-end">
               <Typography> IDR </Typography>
             </Grid>
-            <Grid item>
+            <Grid item display="flex" alignItems="flex-end">
               <Typography> My Account </Typography>
             </Grid>
-            <Grid item>
+            <Grid item display="flex" alignItems="flex-end">
               <Typography> Cart (0) </Typography>
             </Grid>
           </Grid>
